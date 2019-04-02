@@ -1,598 +1,368 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Sass Starter</title>
-  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
-	<!--build:css css/style.css-->
-  	<link rel="stylesheet" href="css/style.css">
-	<!--endbuild-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ScanTrax</title>
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-  <div class="example-doc">
-    <header>
-      <div class="container">
-        <h1>Sass Starter</h1>
-        <p class="sub-header">SCSS for SMACSS</p>
-        <p>Starter code for SASS based on Scalar and Modular Architecture for CSS (SMACSS).
-          SMACSS (pronounced “smacks”) is more style guide than rigid framework. This allows for more customization to the structure as we see fit.
+    <div class="sub-nav">
+        <div class="sub-nav__list">
+            <a class="sub-nav__link">24/7 LIVE SUPPORT </a>
+            <a class="sub-nav__link"> support@scantranx.com</a>
+            <a class="sub-nav__link">506-230-4861</a>
+        </div>
+    </div>
+    <nav class="nav">
+        <div class="nav--left">
+            <a>
+                <img src="" alt="scantrax--logo">
+            </a>
+        </div>
+        <div class="nav--center">
+            <a class="nav__link" href="#">features</a>
+            <a class="nav__link" href="#">hardware</a>
+            <a class="nav__link" href="#">pricing</a>
+            <a class="nav__link" href="#">developers</a>
+            <a class="nav__link" href="#">FAQ</a>
+        </div>
+        <div class="nav--right">
+            <a class="nav__button" href="#">Try for free</a>
+            <a class="nav__button nav--flag" href="">NIG</a>
+        </div>
+    </nav>
+
+    <section class="pre-footer top">
+        <div class="pre-footer--flex">
+            <div class="pre-footer--left">
+                <h2 class="pre-footer__h2">
+                    Smart Solution for Retail and Wholesale Businesses.
+                </h2>
+                <p class="pre-footer__p top__p">
+                    Seamlessly Integrate all your sales channel and provide your customers with Unique Shopping
+                    Experience.
+                </p>
+                <button class="pre-footer__a top__button" href="#">Play Video</button>
+                <div class="top--logo">
+                    <img class="logo__img" src="" alt="logo-image">
+                    <img class="logo__img" src="" alt="logo-image">
+                    <img class="logo__img" src="" alt="logo-image">
+                    <img class="logo__img" src="" alt="logo-image">
+                    <img class="logo__img" src="" alt="logo-image">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="feature">
+        <div class="feature--flex">
+            <div class="feature--brochure">
+                <div class="brochure--details">
+                    <h2 class="brochure__h2">Smart Solution for Retail</h2>
+                    <p class="brochure__p">
+                        Seamlessly Integrate all your sales channel and provide your customers with Unique Shopping
+                        Experience.
+                    </p>
+                    <button class="brochure__button">Download Brochure</button>
+                </div>
+
+                <div class="brochure--bottom">
+                    <p class="brochure--bottom__p">
+                        Start Accepting modern payment methods in just minutes.
+                    </p>
+                    <div class="logo">
+                        <img class="logo__img" src="" alt="logo-image">
+                        <img class="logo__img" src="" alt="logo-image">
+                        <img class="logo__img" src="" alt="logo-image">
+                        <img class="logo__img" src="" alt="logo-image">
+                        <img class="logo__img" src="" alt="logo-image">
+                    </div>
+                </div>
+            </div>
+            <div class="feature--list">
+                <div class="feature--box">
+                    <h4>Mobile Monitoring</h4>
+                    <p>
+                        Get real-time access to your business key performance statistics and make administrative
+                        decisions from any part of the world.
+                    </p>
+                </div>
+                <div class="feature--box">
+                    <h4>Mobile Monitoring</h4>
+                    <p>
+                        Get real-time access to your business key performance statistics and make administrative
+                        decisions from any part of the world.
+                    </p>
+                </div>
+                <div class="feature--box">
+                    <h4>Mobile Monitoring</h4>
+                    <p>
+                        Get real-time access to your business key performance statistics and make administrative
+                        decisions from any part of the world.
+                    </p>
+                </div>
+                <div class="feature--box">
+                    <h4>Mobile Monitoring</h4>
+                    <p>
+                        Get real-time access to your business key performance statistics and make administrative
+                        decisions from any part of the world.
+                    </p>
+                </div>
+                <div class="feature--box">
+                    <h4>Mobile Monitoring</h4>
+                    <p>
+                        Get real-time access to your business key performance statistics and make administrative
+                        decisions from any part of the world.
+                    </p>
+                </div>
+                <div class="feature--box">
+                    <h4>Mobile Monitoring</h4>
+                    <p>
+                        Get real-time access to your business key performance statistics and make administrative
+                        decisions from any part of the world.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="pre-footer pos">
+        <div class="pre-footer--flex">
+            <div class="pre-footer--left">
+                <h2 class="pre-footer__h2">Your Point of Sale (POS) on Android.</h2>
+                <p class="pre-footer__p pos__p">
+                    Scantranx provides you with a Unique POS application on an Android device -
+                    Tablet, Mobile Phones or our customized hardware.
+                </p>
+                <p class="pre-footer__p pos__p">
+                    Using Scantranx Android POS, you can process your In-store transactions easily. Scantranx enables
+                    you to provide a quick and seamless checkout experience for your customers, what a way to keep them
+                    coming back.
+                </p>
+
+                <button class="pos__button" href="#">How it works</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="guide review">
+        <h2 class="guide__h2">Don't take our words for it. Here's what our customers are saying</h2>
+        <p class="guide__p review__p">
+            Hundreds of Customers worldwide
         </p>
-      </div>
-    </header>
-    <main>
-        <div class="Block">
-          <div class="container">
-            <h2>SASS Folder Structure:</h2>
-            <ul class="tree">
-              <li>
-                sass
+        <div class="box--container">
+            <div class="box">
+                <p class="box__p">
+                    "Scantranx has really help us track our stock & sales easily, which has helped boost our efficiency
+                    in record keeping and general business growth. "
+                </p>
+
+                <div class="customer">
+                    <img src="" alt="" class="customer__img">
+                    <div class="customer--info">
+                        <h5 class="customer__h5">Oyedotun Enitan</h5>
+                        <div class="customer--title">GM, Maryam Auto</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p class="box__p">
+                    "Scantranx has really help us track our stock & sales easily, which has helped boost our efficiency
+                    in record keeping and general business growth. "
+                </p>
+
+                <div class="customer">
+                    <img src="" alt="" class="customer__img">
+                    <div class="customer--info">
+                        <h5 class="customer__h5">Oyedotun Enitan</h5>
+                        <div class="customer--title">GM, Maryam Auto</div>
+                    </div>
+                </div>
+            </div>
+            <div class="box">
+                <p class="box__p">
+                    "Scantranx has really help us track our stock & sales easily, which has helped boost our efficiency
+                    in record keeping and general business growth. "
+                </p>
+
+                <div class="customer">
+                    <img src="" alt="" class="customer__img">
+                    <div class="customer--info">
+                        <h5 class="customer__h5">Oyedotun Enitan</h5>
+                        <div class="customer--title">GM, Maryam Auto</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="guide">
+        <h2 class="guide__h2">Get started in Just 3 easy steps.</h2>
+        <p class="guide__p">
+            Sign up now and increase your sales while you reduce operational cost. You can also speak to a consultant if
+            you need assistance.
+        </p>
+        <div class="sponsor">
+            <img class="sponsor__img" src="" alt="sponsor-image">
+            <img class="sponsor__img" src="" alt="sponsor-image">
+            <img class="sponsor__img" src="" alt="sponsor-image">
+            <img class="sponsor__img" src="" alt="sponsor-image">
+        </div>
+        <div class="box--container">
+            <div class="box">
+                <h4 class="box__h4">CREATE FREE ACCOUNT</h4>
+                <p class="box__p">
+                    You may create an account by clicking the free-trial above or send us an email at info@scantranx.com
+                </p>
+
+                <img class="box__img" src="" alt="box-image">
+            </div>
+            <div class="box">
+                <h4 class="box__h4">SELECT A PLAN</h4>
+                <p class="box__p">
+                    Select your desired plan based on the size of your business.
+                </p>
+
+                <img class="box__img" src="" alt="box-image">
+            </div>
+            <div class="box">
+                <h4 class="box__h4">HAPPY RETAILING</h4>
+                <p class="box__p">
+                    Once your account has been set-up successfully, relax and watch your business grow.
+                </p>
+
+                <img class="box__img" src="" alt="box-image">
+            </div>
+        </div>
+    </section>
+
+    <section class="pre-footer">
+        <div class="pre-footer--flex">
+            <div class="pre-footer--left">
+                <h2 class="pre-footer__h2">Ready to Expand or Grow your Business?</h2>
+                <p class="pre-footer__p">Get 14 days trial. No credit card required.</p>
+                <a class="pre-footer__a" href="#">Start Trial Today</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer--flex">
+            <div class="footer--column footer--column--first">
+                <img class="footer--logo" src="" alt="scantrax logo">
+                <p class="footer--text footer--paragraph">
+                    Scantranx Technologies Canada Inc is an IT solutions provider with world-class recognition. We pride
+                    ourselves in bringing innovative solutions for better and more effective business process across
+                    domains.
+                </p>
+            </div>
+            <div class="footer--column footer--column--second">
+                <h4 class="footer__h4">Office Address</h4>
+                <address class="footer--text footer__address">50 Crowther Lane, Suite 140, Fredericton NB E3C 0J1
+                    Canada. </address>
+                <div class="footer--text">info@scantranx.com</div>
+                <div class="footer--text">+1 506-230-4861</div>
+            </div>
+            <div class="footer--column">
+                <h4 class="footer__h4">Platform</h4>
                 <ul>
-                  <li>base
-                      <ul>
-                        <li>_base.scss</li>
-                        <li>_manifest.scss</li>
-                      </ul>
-                  </li>
-                  <li>libs
-                    <ul>
-                      <li>_manifest.scss</li>
-                    </ul>
-                  </li>
-                  <li>modules
-                    <ul>
-                      <li>_example.scss</li>
-                      <li>_extends.scss</li>
-                      <li>_manifest.scss</li>
-                      <li>_modules.scss</li>
-                    </ul>
-                  </li>
-                  <li>states
-                    <ul>
-                      <li>_manifest.scss</li>
-                      <li>_print.scss</li>
-                      <li>_states.scss</li>
-                    </ul>
-                  </li>
-                  <li>utilities
-                    <ul>
-                      <li>bootstrap</li>
-                      <li>_bootstrap.scss</li>
-                      <li>_config.scss</li>
-                      <li>_helpers.scss</li>
-                      <li>_manifest.scss</li>
-                      <li>_normalize.scss</li>
-                      <li>_utilities.scss</li>
-                    </ul>
-                  </li>
-                  <li>_shame.scss</li>
-                  <li>style.scss</li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Pricing</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Hardware</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">FAQ</a>
+                    </li>
                 </ul>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="Block">
-          <div class="container">
-            <h2>Using Mixins:</h2>
-            <div class="Block__segment">
-              <h3>Using Media query Mixins:</h3>
-              <p>Find the mixin for media query under
-                 <span class="highlight">utilities/_utilities.scss</span>.
-                 Responsive web design for Sass Starter is based on Mobile first design
-                 and media query breakpoints are based on bootstrap breakpoints.
-                 Breakpoints variables can be customized according to your
-                 needs at
-                 <span class="highlight">utilities/_config.scss</span>.
-              </p>
-              <div class="Block__code">
-                <span>HTML:</span>
-                <pre>&lt;div class="Box"&gt;&lt;/div&gt;</pre>
-              </div>
-<div class="Block__code">
-<span>SCSS:</span>
-<pre>.Box{
-  // For mobile devices of size less than 768px put code here
-  width: 20px;
-  height: 20px;
-  background: red;
-  transition: width 0.3s ease-out, height 0.3s ease-out;
-  margin-right: 10px;
-  float: left;
-  @include mq(sm){// For devices of size greater than 768px(tablets) put code here
-    width: 50px;
-    height: 50px;
-    background: blue;
-  }
-  @include mq(md){// For devices of size greater than 992px(laptops) put code here
-    width: 70px;
-    height: 70px;
-    background: green;
-  }
-  @include mq(lg){// For devices of size greater than 1200px(desktops and high-res TVs) put code here
-    width: 100px;
-    height: 100px;
-    background: yellow;
-  }
-}</pre>
-</div>
-
-<div class="Block__code">
-<span>CSS Output:</span>
-<pre>.Box{
-  width: 20px;
-  height: 20px;
-  background: red;
-  transition: width 0.3s ease-out, height 0.3s ease-out;
-  margin-right: 10px;
-  float: left;
-}
-@media(min-width: 768px){
-  .Box{
-    width: 50px;
-    height: 50px;
-    background: blue;
-  }
-}
-@media(min-width: 992px){
-  .Box{
-    width: 70px;
-    height: 70px;
-    background: green;
-  }
-}
-@media(min-width: 1200px){
-  .Box{
-    width: 100px;
-    height: 100px;
-    background: yellow;
-  }
-}</pre>
-</div>
-
-<div class="Block__code">
-  <span>Example:</span>
-  <span>Resize browser window to see effect.</span>
-  <div>
-    <div class="Box"></div>
-    <div class="Box"></div>
-    <div class="Box"></div>
-    <div class="Box"></div>
-  </div>
-</div>
-
-</div>
-
-
-<div class="Block__segment">
-  <h3>Using BEM Mixins:</h3>
-  <p>Find the mixin for BEM under
-     <span class="highlight">utilities/_utilities.scss</span>.
-   </p>
-<div class="dotted">
-<h3>Block</h3>
-<p>
-Block is a top-level abstraction of a new component. It is top in the hierarchy for this naming convention.
-Blocks can be nested with other blocks but they are independent to each other with no precedence in hierarchy.
-</p>
-<p>We should use class name selector only; ids and tag names should not be used. CSS code should be
-  independent from all other
-  blocks and html elements.</p>
-
-<div class="Block__code">
-<span>HTML:</span>
-<pre>&lt;ul class="Nav"&gt;...&lt;/ul&gt;</pre>
-</div>
-
-<div class="Block__code">
-<span>SCSS:</span>
-<pre>// Here ".nav" class selector is a Block
-.Nav {
-  padding: 10px 0;
-}</pre>
-</div>
-
-</div>
-
-<div class="dotted">
-  <h3>Element</h3>
-  <p>
-    Element is child elements inside of Block element and gives specific meaning to its elements.
-    Elements have their
-    meaning always derived from its respective parent block.
-  </p>
-  <p>
-    CSS class is formed as block name plus two underscores plus element name.
-    Example:
-    <span class="highlight">.block__elem</span>
-    Element naming can also have a single dash.
-    Example: <span class="highlight">.Patient__info-detail</span>
-  </p>
-  <p>
-    We should use class name selector only, ids and tag names should not be used. CSS code should be independent from all other
-    blocks and html elements.
-  </p>
-<div class="Block__code">
-<span>HTML:</span>
-<pre>&lt;ul class="Nav"&gt;
-  &lt;li class="nav__item"&gt;...&lt;/nav&gt;
-  &lt;li class="nav__item"&gt;...&lt;/nav&gt;
-  &lt;li class="nav__item"&gt;...&lt;/nav&gt;
-&lt;/ul>
-</pre>
-</div>
-
-<div class="Block__code">
-<span>SCSS:</span>
-<pre>// Here ".Nav" class selector is a Block and ".Nav__item" is an Element
-.Nav{
-  padding: 10px 0;
-  @include e(item){ //'e' is small for element
-    float: left;
-    margin-right: 10px;
-  }
-}</pre>
-</div>
-
-<div class="Block__code">
-<span>CSS Output:</span>
-<p>Output is completely independent from the parent block class selectors.</p>
-<pre>
-.Nav {
-  padding: 10px 0;
-}
-
-.Nav__item{
-  float: left;
-  margin-right: 10px;
-}</pre>
-</div>
-
-</div>
-
-<div class="dotted">
-<h3>Modifier</h3>
-<p>
-  Modifier is used to modify blocks or elements.
-  CSS class will be formed by added two dashes to block’s or element’s class name.
-  Example: <span class="highlight">.block--mod</span> or <span class="highlight">.block__elem--mod</span>
-  Modifier naming can also have a single dash. Example: <span class="highlight">.Box__row--gray-bg</span>
-</p>
-<p>
-  We should use class name selector only, ids and tag names should not be used. CSS code
-  should be independent from all other
-  blocks and html elements.
-</p>
-
-<div class="Block__code">
-<span>HTML:</span>
-<pre>&lt;ul class="Nav"&gt;
-  &lt;li class="nav__item nav__item--active"&gt;...&lt;/nav&gt;
-  &lt;li class="nav__item"&gt;...&lt;/nav&gt;
-  &lt;li class="nav__item"&gt;...&lt;/nav&gt;
-&lt;/ul></pre>
-</div>
-
-<div class="Block__code">
-<span>SCSS:</span>
-<pre>// Here ".Nav" class selector is a Block and ".Nav__item" is an Element
-.Nav{
-  padding: 10px 0;
-  @include e(item){
-    float: left;
-    margin-right: 10px;
-    @include m(active){//'m' is small for element. Nest this under element mixin
-      color: blue;
-      font-weight: bold;
-    }
-  }
-}</pre>
-</div>
-
-<div class="Block__code">
-<span>CSS Output:</span>
-<p>Output is completely independent from the parent block and element class selectors.</p>
-<pre>
-.Nav {
-  padding: 10px 0;
-}
-
-.Nav__item{
-  float: left;
-  margin-right: 10px;
-}
-
-.Nav__item--active{
-  color: blue;
-  font-weight: bold;
-}</pre>
-</div>
-
-</div>
             </div>
-          </div>
-        </div>
-
-        <div class="Block">
-          <div class="container">
-            <h2>Using Functions:</h2>
-            <p>Find the functions defined under <span class="highlight">utilities/_utilities.scss</span>.</p>
-            <div class="Block__segment">
-              <h3>rem function</h3>
-              <p>Convert pixel unit into rem.</p>
-
-<div class="Block__code">
-<span>Usage(SCSS):</span>
-<pre>header{
-  padding: rem(20px) rem(30px);
-}</pre>
-</div>
-
-<div class="Block__code">
-<span>Alternative(SCSS):</span>
-<pre>header{
-  padding: rem(20) rem(30);
-}</pre>
-</div>
-
-<div class="Block__code">
-<span>CSS Output:</span>
-<pre>header{
-  padding: 1.25rem 1.875rem; //base font size of 16px
-}</pre>
-</div>
-
-</div>
-            <div class="Block__segment">
-              <h3>pntg function</h3>
-              <p>Convert pixel unit to percentage.</p>
-
-<div class="Block__code">
-<span>Usage(SCSS):</span>
-<pre>.box{
-  width: pntg(300,768); //First parameter is target width and second parameter is context width
-}</pre>
-</div>
-
-<div class="Block__code">
-<span>CSS Output:</span>
-<pre>.box{
-  width: 39.0625%;
-}</pre>
-</div>
-
+            <div class="footer--column">
+                <h4 class="footer__h4">Features</h4>
+                <ul>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Inventory Mnagement</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Omni- channel solution</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Point of Sale (POS)</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Ecommerce</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Customer Management</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Social Media</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Reporting & Analytics</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Automated Data Back Up</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Remote Access</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Barcode System</a>
+                    </li>
+                </ul>
             </div>
-          </div>
-        </div>
-
-        <div class="Block">
-          <div class="container">
-            <h2>Using Maps:</h2>
-            <p>Define maps at <span class="highlight">_config.scss partial</span>.</p>
-
-            <div class="Block__segment">
-              <h3>Mapping background colors to elements:</h3>
-<div class="Block__code">
-<span>HTML:</span>
-<pre>&lt;div&gt;
-  &lt;button class="btn btn--default"&gt;Default&lt;/button&gt;
-  &lt;button class="btn btn--success"&gt;Succes&lt;/button&gt;
-  &lt;button class="btn btn--error"&gt;Error&lt;/button&gt;
-  &lt;button class="btn btn--warning"&gt;Warning&lt;/button&gt;
-&lt;/div&gt;</pre>
-</div>
-<div class="Block__code">
-<span>SCSS:</span>
-<pre>// Declare map for UI colors
-$ui-colors: (
-  default: $blue,
-  success: $success,
-  error: $error,
-  warning: $edit
-);
-
-//Using a mixin to iterate through the map:
-@mixin bg-colors($map){
-  @each $theme, $color in $map{
-    &--#{$theme}{ //Interpolating parent class name with map key
-      background: $color;
-    }
-  }
-}
-
-//Using the mixin to create different types of button with different background colors:
-.btn{
-  padding: 10px 15px;
-  border: 0;
-  border-radius: 2px;
-  color: #fff;
-  cursor: pointer;
-  font-weight: bold;
-  @include bg-colors($ui-colors);
-}
-</pre>
-</div>
-
-<div class="Block__code">
-<span>CSS Output:</span>
-<pre>.btn{
-  padding: 10px 15px;
-  border: 0;
-  border-radius: 2px;
-  color: #fff;
-  cursor: pointer;
-  font-weight: bold;
-}
-.btn--default{
-  background: blue;
-}
-
-.btn--success{
-  background: green;
-}
-
-.btn--error{
-  background: red;
-}
-
-.btn--warning{
-  background: yellow;
-}</pre>
-</div>
-
-<div class="Block__code">
-  <span>Example:</span>
-  <div>
-    <button class="btn btn--default">Default</button>
-    <button class="btn btn--success">Success</button>
-    <button class="btn btn--error">Error</button>
-    <button class="btn btn--warning">Warning</button>
-  </div>
-</div>
-
+            <div class="footer--column">
+                <h4 class="footer__h4">Company</h4>
+                <ul>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">About us</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Blog</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Contact Us</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Ecommerce</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Customer Mgmt</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Social Media</a>
+                    </li>
+                </ul>
             </div>
-            <div class="Block__segment">
-              <h3>Using nested maps:</h3>
-
-<div class="Block__code">
-<span>HTML:</span>
-<pre>&lt;div class="Palette__wrap"&gt;
-  &lt;div class="gray--dark"&gt;Dark&lt;/div&gt;
-  &lt;div class="gray--base"&gt;Base&lt;/div&gt;
-  &lt;div class="gray--light"&gt;Light&lt;/div&gt;&lt;/div&gt;
-
-&lt;div class="Palette__wrap"&gt;
-  &lt;div class="blue--dark"&gt;Dark&lt;/div&gt;
-  &lt;div class="blue--base"&gt;Base&lt;/div&gt;
-  &lt;div class="blue--light"&gt;Light&lt;/div&gt;
-&lt;/div&gt;</pre>
-</div>
-
-<div class="Block__code">
-<span>SCSS:</span>
-<pre>// Nested Map:
-$palettes: (
-	gray-shades: (
-	  base: $gray,
-	  dark: darken($gray,20%),
-	  light: lighten($gray,20%)
-	),
-	blue-shades: (
-		base: $blue,
-	  dark: darken($blue,20%),
-	  light: lighten($blue,20%)
-	)
-);
-
-// Use palette function
-// $palette   - Map required under $palettes map($palettes map is defined under _config.scss partial)
-// $shade     - Key of provide $palette map
-// base       - Default key of $shade under $palette map
-// @returns   - map
-@function palette($palette, $shade: base){
-	@return map-get(map-get($palettes, $palette), $shade);
-}
-
-//Using function in SCSS code:
-.blue{
-  @include m(base){
-    @extend %palette-props;
-    background: palette(blue-shades);
-  }
-  @include m(dark){
-    @extend %palette-props;
-    background: palette(blue-shades, dark);
-  }
-  @include m(light){
-    @extend %palette-props;
-    background: palette(blue-shades, light);
-  }
-}</pre>
-</div>
-
-<div class="Block__code">
-  <span>Example of generated palette:</span>
-  <div class="Palette__wrap">
-    <div class="gray--dark">Dark</div>
-    <div class="gray--base">Base</div>
-    <div class="gray--light">Light</div>
-  </div>
-
-  <div class="Palette__wrap">
-    <div class="blue--dark">Dark</div>
-    <div class="blue--base">Base</div>
-    <div class="blue--light">Light</div>
-  </div>
-</div>
-
+            <div class="footer--column">
+                <h4 class="footer__h4">Socials</h4>
+                <ul>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Twitter</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Instagram</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Github</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">LinkedIn</a>
+                    </li>
+                    <li class="footer__li">
+                        <a class="footer__a footer--text" href="#">Facebook</a>
+                    </li>
+                </ul>
             </div>
-            <div class="Block__segment">
-              <div class="container">
-                <h2>Using grids</h2>
-                <div class="row">
-                  <div class="col-xs-1">
-                    col-xs-1
-                  </div>
-                  <div class="col-xs-1">
-                    col-xs-1
-                  </div>
-                  <div class="col-xs-1">
-                    col-xs-1
-                  </div>
-                  <div class="col-xs-1">
-                    col-xs-1
-                  </div>
-                  <div class="col-xs-1">
-                    col-xs-1
-                  </div>
-                  <div class="col-xs-1">
-                    col-xs-1
-                  </div>
-                  <div class="col-xs-1">
-                    col-xs-1
-                  </div>
-                  <div class="col-xs-1">
-                    col-xs-1
-                  </div>
-                  <div class="col-xs-1">
-                    col-xs-1
-                  </div>
-                  <div class="col-xs-1">
-                    col-xs-1
-                  </div>
-                  <div class="col-xs-1">
-                    col-xs-1
-                  </div>
-                  <div class="col-xs-1">
-                    col-xs-1
-                  </div>
-                </div>
-                <br>
-                <div class="row">
-                  <div class="col-sm-2 col-md-4 col-lg-8">
-                    col-responsive
-                  </div>
-                  <div class="col-sm-10 col-md-8 col-lg-4">
-                    col-responive-second
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+
         </div>
-    </main>
-    <footer>
-      <div class="container">
-        <div class="pull-left">
-          <a href="https://github.com/sshikhrakar/Sass-Starter">Github</a>
-        </div>
-        <div class="pull-right">
-          <span>By Shirish Shikhrakar&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Sass Starter</span>
-        </div>
-      </div>
     </footer>
-  </div>
 </body>
+
 </html>

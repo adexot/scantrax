@@ -1,6 +1,5 @@
 # Files
 .DS_Store
-Read Me.txt
 npm-debug.log
 
 # Directories
@@ -9,3 +8,4 @@ dist/
 bower_components/
 .sass-cache/
 css/
+package-lock.json

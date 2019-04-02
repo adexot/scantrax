@@ -1,0 +1,263 @@
+.guide {
+    background-color: #0A192B;
+    color: #fff;
+    padding: 100px 0 180px;
+
+    &__h2,
+    &__p {
+        text-align: center;
+        max-width: 750px;
+        margin: 0 auto;
+    }
+
+    &__h2 {
+        margin-bottom: 20px;
+        font-size: 36rem;
+        line-height: 1.33;
+    }
+
+    &__p {
+        font-size: 20rem;
+    }
+}
+
+.box {
+    padding: 30px;
+    border-radius: 20px;
+    font-size: 16rem;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    background-color: #fff;
+
+    &--container {
+        display: flex;
+        justify-content: space-between;
+        max-width: 1150px;
+        margin: 100px auto 0;
+    }
+
+    &__img {
+        position: absolute;
+        bottom: 30px;
+        left: 30px;
+    }
+
+    &__p {
+        color: #6B757E;
+        line-height: 1.66;
+    }
+
+    &__h4 {
+        font-size: 18rem;
+        color: #323D55;
+        margin-bottom: 15px;
+    }
+}
+
+.sponsor {
+    display: flex;
+    justify-content: space-between;
+    max-width: 500px;
+    margin: 50px auto;
+    font-size: 15rem;
+
+    &__img {
+        display: inline-block;
+    }
+}
+
+.review {
+    background-color: #05111E;
+
+    &__p {
+        color: rgba(255, 255, 255, 0.54);
+        font-size: 20rem;
+    }
+}
+
+.customer {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+
+
+    &__img {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        background-color: #f1f1f1;
+        border-radius: 50%;
+    }
+
+    &--info {
+        display: inline-block;
+    }
+
+    &__h5 {
+        margin-bottom: 12px;
+        font-size: 16rem;
+        color: #243340;
+    }
+
+    &--title {
+        font-size: 14rem;
+        color: #6B757E;
+    }
+}
+
+.pos {
+    background-color: #0E2440;
+
+    &__p {
+        color: #CBE4FF;
+        line-height: 1.8;
+    }
+
+    &__button {
+        background-color: transparent;
+        font-size: 16rem;
+        color: #fff;
+        border: 0;
+    }
+}
+
+.feature {
+    background-color: #0A192B;
+    padding: 94px 88px;
+    font-size: 16rem;
+    color: #fff;
+
+    &--flex {
+        display: flex;
+        justify-content: space-between;
+        flex-grow: 1;
+    }
+
+    &--brochure {
+        background-color: #fff;
+        border-radius: 10px;
+        width: 500px;
+        margin-right: 80px;
+    }
+
+    &--list {
+        display: inline-flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 65%;
+    }
+
+    &--box {
+        width: 45%;
+        margin-top: 70px;
+
+        &:first-child,
+        &:nth-child(2) {
+            margin-top: 0;
+        }
+    }
+
+    .brochure {
+        &--details {
+            padding: 30px 50px;
+        }
+
+        &__button {
+            font-size: 14rem;
+            background-color: #0091FF;
+            color: #fff;
+            padding: 15px 30px;
+            border-radius: 5px;
+        }
+
+        &__p {
+            color: #6B757E;
+            font-size: 16rem;
+            line-height: 1.33;
+            margin: 20px 0 50px;
+        }
+
+        &__h2 {
+            color: #0A192B;
+            font-size: 30rem;
+            line-height: 1.28;
+            max-width: 250px;
+        }
+
+        &--bottom {
+            background-color: rgba(88, 147, 211, 0.1);
+            padding: 30px 50px;
+
+            &__p {
+                color: #323D55;
+                opacity: 0.6;
+                line-height: 1.2;
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+}
+
+.top {
+    background-color: #0091FF;
+
+    &__p {
+        line-height: 1.66;
+    }
+
+    &__button {
+        background-color: #0A192B;
+        color: #fff;
+        font-size: 16rem;
+        padding: 15px 50px;
+    }
+
+    &--logo {
+        margin-top: 50px;
+    }
+}
+
+.nav {
+    background-color: #0091FF;
+    display: flex;
+    justify-content: space-between;
+    font-size: 16rem;
+    color: #fff;
+    padding: 30px 80px;
+
+    &__link {
+        padding: 0 25px;
+        text-transform: capitalize;
+    }
+
+    &__button {
+        padding: 10px 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
+    &--flag {
+        padding: 10px;
+        margin-left: 5px;
+    }
+}
+
+.sub-nav {
+    background-color: #050E19;
+    color: #fff;
+    font-size: 16rem;
+    padding: 10px 0;
+
+    &__list {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__link {
+        padding: 0 50px;
+        text-transform: uppercase;
+    }
+}
