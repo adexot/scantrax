@@ -25,14 +25,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sshikhrakar/Sass-Starter.git"
+    "url": "https://github.com/adexot/scantrax.git"
   },
   "author": "Shirish Shikhrakar",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/sshikhrakar/Sass-Starter/issues"
   },
-  "homepage": "https://github.com/sshikhrakar/Sass-Starter#readme",
+  "homepage": "https://github.com/adexot/scantrax#readme",
   "devDependencies": {
     "autoprefixer": "^6.5.3",
     "browser-sync": "^2.24.4",
