@@ -24,9 +24,9 @@
     }
 
     &--details {
-       padding: 50px;
+        padding: 50px;
 
-       ul {
+        ul {
             list-style: none;
             width: 500px;
             display: inline-flex;
@@ -35,25 +35,25 @@
             color: #6B757E;
             font-size: 15px;
 
-           li {
-               width: 200px;
-               margin-bottom: 15px;
-               margin-left: 30px;
-               position: relative;
-           }
+            li {
+                width: 200px;
+                margin-bottom: 15px;
+                margin-left: 30px;
+                position: relative;
+            }
 
-           li::before {
-            content:  url('/images/checkbox.svg');
-            padding-right: 10px;
-            position: absolute;
-            left: -30px;
-           }
-       }
+            li::before {
+                content: url('/images/checkbox.svg');
+                padding-right: 10px;
+                position: absolute;
+                left: -30px;
+            }
+        }
     }
 
     &__h4 {
         color: #0091FF;
-        font-size: 25px;
+        font-size: 20px;
         margin-bottom: 30px;
     }
 
