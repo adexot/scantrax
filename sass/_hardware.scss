@@ -1,0 +1,16 @@
+.hardware {
+    padding-bottom: 200px;
+
+    &--item {
+        background-color: #fff;
+        border-radius: 6px;
+        box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+        padding: 50px;
+        font-size: 15rem;
+        margin-bottom: 30px;
+    }
+
+    &__h4 {
+        color: #0091FF;
+    }
+}
