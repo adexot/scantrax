@@ -1,0 +1,43 @@
+.nav {
+    background-color: #0091FF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15rem;
+    color: #fff;
+    padding: 30px 80px;
+
+    &__link {
+        padding: 0 25px;
+        text-transform: capitalize;
+    }
+
+    &__button {
+        padding: 10px 20px;
+        background-color: rgba(255, 255, 255, 0.2);
+        border-radius: 3px;
+        text-transform: uppercase;
+    }
+
+    &--flag {
+        padding: 10px;
+        margin-left: 5px;
+    }
+}
+
+.top-nav {
+    background-color: #050E19;
+    color: #fff;
+    font-size: 15rem;
+    padding: 10px 0;
+
+    &__list {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__link {
+        padding: 0 50px;
+        text-transform: uppercase;
+    }
+}
