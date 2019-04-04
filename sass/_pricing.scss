@@ -1,0 +1,62 @@
+.pricing {
+    padding-bottom: 200px;
+
+    &--heading {
+        width: 700px;
+    }
+
+    &__table {
+        background-color: #fff;
+        border-radius: 10px;
+        width: 100%;
+        text-align: center;
+        box-shadow: 0 0 15px 0 transparentize(#000, 0.9);
+        border-collapse: collapse;
+    }
+
+    &__thead {
+        background-color: transparentize(#919191, 0.9);
+    }
+
+    &__th {
+        padding: 50px;
+    }
+
+    &__td {
+        font-size: 16rem;
+        text-transform: uppercase;
+        width: 25%;
+        padding: 25px 50px;
+    }
+
+    &__td {
+        border: 1px solid #F1F1F1;
+    }
+
+    &__h3 {
+        color: #0091FF;
+        font-size: 26rem;
+        font-weight: 600;
+        margin-top: 20px;
+    }
+
+    &__h6 {
+        font-size: 12rem;
+        text-transform: uppercase;
+    }
+
+    &__a {
+        text-transform: uppercase;
+        color: #0091FF;
+        display: inline-block;
+        background-color: transparentize(#0091FF, 0.9);
+        width: 250px;
+        border-radius: 4px;
+        padding: 15px 25px;
+        font-weight: 600;
+    }
+
+    &__span {
+        font-size: 16rem;
+    }
+}

@@ -1,0 +1,33 @@
+.faq {
+    padding-bottom: 200px;
+
+    &--flex {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 50px;
+        font-size: 15rem;
+        box-shadow: 0 0 15px 0 transparentize(#000, 0.9);
+    }
+
+    &--item {
+        width: 30%;
+        margin-bottom: 40px;
+    }
+
+    &__h4 {
+        font-size: 18rem;
+        color: #0091FF;
+        margin-bottom: 15px;
+        line-height: 1.2;
+    }
+
+    &__p {
+        color: #6B757E;
+        font-size: 15rem;
+        font-weight: 400;
+        line-height: 1.66;
+    }
+}
