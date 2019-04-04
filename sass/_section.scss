@@ -4,6 +4,11 @@
     font-size: 18rem;
     padding: 90px;
 
+    &--flex {
+        display: flex;
+        justify-content: space-between;
+    }
+
     &--left {
         max-width: 500px;
     }
@@ -14,6 +19,8 @@
     }
 
     &__p {
+        font-size: 16rem;
+        font-weight: 400;
         margin: 30px 0;
     }
 }
