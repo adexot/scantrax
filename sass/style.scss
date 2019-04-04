@@ -32,10 +32,15 @@ button {
     cursor: pointer;
 }
 
+.text-left {
+    text-align: left;
+}
+
 @import 'section';
 @import 'nav';
 @import 'home';
 @import 'hardware';
 @import 'faq';
+@import 'pricing';
 @import 'footer';
 @import 'theme';
