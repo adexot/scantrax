@@ -1,0 +1,59 @@
+.stories {
+    padding-bottom: 200px;
+
+    &--flex {
+        background-color: #fff;
+        border-radius: 10px;
+        padding: 0 50px 0;
+        margin-top: 40px;
+        font-size: 15rem;
+        box-shadow: 0 0 15px 0 transparentize(#000, 0.9);
+    }
+
+    &--item {
+        width: 100%;
+        padding: 50px 0;
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 1px #CBCBCB solid;
+
+        div {
+            width: 70%;
+        }
+
+        img {
+        height: 300px;
+        margin-left: 20px;
+        width: auto;
+        }
+    }
+
+    &--item:last-child {
+        border: none;
+    }
+
+    &__h4 {
+        font-size: 30rem;
+        color: #0091FF;
+        margin-bottom: 15px;
+        line-height: 1.2;
+    }
+
+    &__p {
+        color: #6B757E;
+        font-size: 15rem;
+        font-weight: 400;
+        line-height: 1.66;
+    }
+
+    &__uploadTime {
+        margin-top: 20px;
+        color: #6B757E;
+
+        span {
+            margin-left: 20px;
+            color: #0A192B;
+            font-weight: 500;
+        }
+    }
+}
