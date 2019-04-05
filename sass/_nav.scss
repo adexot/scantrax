@@ -7,9 +7,27 @@
     color: #fff;
     padding: 30px 80px;
 
+    &--center {
+        &__li {
+            list-style: none;
+            display: inline-block;
+            padding: 0 10px;
+            position: relative;
+
+            &:hover .nav--dropdown {
+                padding: 15px;
+                max-height: 200px;
+                visibility: visible;
+            }
+        }
+    }
+
     &__link {
-        padding: 0 25px;
+        display: inline-block;
+        width: 100%;
         text-transform: capitalize;
+        padding: 15px;
+
     }
 
     &__button {
@@ -20,8 +38,40 @@
     }
 
     &--flag {
-        padding: 10px;
+        padding: 10px 10px;
         margin-left: 5px;
+        display: inline-block;
+
+        img {
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    &--dropdown {
+        position: absolute;
+        background-color: #fff;
+        color: #0A192B;
+        z-index: 1;
+        max-height: 0;
+        overflow: hidden;
+        visibility: hidden;
+        transition: max-height .25s linear;
+
+        &__li {
+            list-style: none;
+            margin-bottom: 15px;
+        }
+
+        &__a {
+            display: inline-block;
+            width: 100%;
+
+            &:hover {
+                color: #0091FF;
+            }
+        }
+
     }
 }
 
