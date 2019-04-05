@@ -1,0 +1,103 @@
+.career {
+    padding-bottom: 200px;
+
+    &--list {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 15px 0 transparentize(#000, 0.9);
+    }
+
+    &--item {
+        cursor: pointer;
+        outline: none;
+
+        &:not(:last-child) {
+            border-bottom: 1px solid #CBCBCB;
+        }
+
+        &:focus>.career--content {
+            padding: 30px 50px;
+            max-height: 1000px;
+        }
+    }
+
+    &--flex {
+        display: flex;
+        justify-content: space-between;
+        padding: 50px;
+    }
+
+    &__a {
+        display: inline-block;
+        background-color: #0A192B;
+        color: #fff;
+        font-size: 16rem;
+        text-transform: uppercase;
+        border-radius: 30px;
+        width: 250px;
+        text-align: center;
+        height: 50px;
+        line-height: 50px;
+    }
+
+    &__h4 {
+        color: #0091FF;
+        font-size: 20rem;
+        text-transform: capitalize;
+        font-weight: 600;
+        margin-bottom: 20px;
+    }
+
+    &__li {
+        display: inline-block;
+        list-style: none;
+
+        &:not(:first-child) {
+            padding-left: 50px;
+        }
+    }
+
+    &__h5 {
+        color: #6B757E;
+        font-size: 13rem;
+        text-transform: uppercase;
+        font-weight: 300;
+        margin-bottom: 5px;
+    }
+
+    &__span {
+        color: #09182A;
+        font-size: 12rem;
+        font-weight: 600;
+    }
+
+    &--content {
+        background-color: #F6F6F6;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height .3s linear;
+
+        &--row {
+            margin-bottom: 30px;
+        }
+
+        &--title {
+            font-size: 14rem;
+            text-transform: capitalize;
+            color: #0A192B;
+            margin-bottom: 20px;
+        }
+
+        &--description {
+            color: #6B757E;
+            font-size: 14rem;
+            line-height: 1.8;
+        }
+
+        &__li {
+            font-size: 14rem;
+            color: #6B757E;
+            line-height: 1.8;
+        }
+    }
+}
