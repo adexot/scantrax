@@ -8,9 +8,16 @@
     }
 
     &--item {
+        cursor: pointer;
+        outline: none;
 
         &:not(:last-child) {
             border-bottom: 1px solid #CBCBCB;
+        }
+
+        &:focus>.career--content {
+            padding: 30px 50px;
+            max-height: 1000px;
         }
     }
 
@@ -66,7 +73,9 @@
 
     &--content {
         background-color: #F6F6F6;
-        padding: 30px 50px;
+        overflow: hidden;
+        max-height: 0;
+        transition: max-height .3s linear;
 
         &--row {
             margin-bottom: 30px;
