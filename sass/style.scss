@@ -37,6 +37,10 @@ button {
     text-align: left;
 }
 
+.text-bold {
+    font-weight: 600;
+}
+
 @import 'config';
 @import 'utilities';
 @import 'section';
@@ -51,5 +55,6 @@ button {
 @import 'features';
 @import 'contact';
 @import 'career';
+@import 'news';
 @import 'footer';
 @import 'theme';
