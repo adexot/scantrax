@@ -54,10 +54,6 @@
     font-size: 16rem;
     color: #fff;
 
-    @include mq(sm){
-        padding: 0 20px;
-    }
-
     &--flex {
         display: flex;
         justify-content: space-between;
@@ -102,14 +98,6 @@
     }
 
     .brochure {
-
-        @include mq(sm){
-            &--logos {
-            display: flex;
-            justify-content: space-between;
-            flex-wrap: wrap;
-        }
-        }
 
         &--details {
             padding: 30px 50px;
@@ -156,6 +144,46 @@
         &--logos {
             display: flex;
             justify-content: space-between;
+        }
+
+        @include mq(sm){
+
+            &--logos {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+            }
+
+            &--details {
+                text-align: center;
+                padding: 30px 20px;
+            }
+
+            &__h2 {
+                max-width: 100%;
+                width: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            &__button {
+                width: 100%;
+            }
+
+        }
+    }
+
+    @include mq(sm){
+        padding: 0 20px;
+
+        &--list {
+            display: block;
+        }
+
+        &--box {
+            margin: 0;
+            padding: 30px 0;
+            width: 100%;
         }
     }
 

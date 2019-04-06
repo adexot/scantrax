@@ -4,10 +4,6 @@
     font-size: 18rem;
     padding: 90px;
 
-    @include mq(sm) {
-        padding: 20px;
-    }
-
     &--flex {
         display: flex;
         justify-content: space-between;
@@ -37,6 +33,10 @@
         @include mq(sm){
             text-align: center;
         }
+    }
+
+    @include mq(sm) {
+        padding: 20px;
     }
 }
 
@@ -78,22 +78,11 @@
     position: relative;
     background-color: #fff;
 
-    @include mq(sm){
-        display: inline-block;
-        width: 300px;
-    }
-
     &--container {
         display: flex;
         justify-content: space-between;
         max-width: 1150px;
         margin: 100px auto 0;
-
-        @include mq(sm){
-            // display: block;
-            overflow-x: scroll;
-            width: 300px;
-        }
     }
 
     &__img {
@@ -112,6 +101,22 @@
         font-weight: 700;
         color: #323D55;
         margin-bottom: 15px;
+    }
+
+     @include mq(sm){
+        display: inline-block;
+        width: 300px; 
+
+        &--container {
+        
+        display: flex;
+        justify-content: space-between;
+        max-width: 1150px;
+        margin: 0;
+        overflow-x: scroll;
+        width: 100%;
+
+        }    
     }
 }
 
