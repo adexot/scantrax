@@ -18,6 +18,7 @@
         &:focus>.career--content {
             padding: 30px 50px;
             max-height: 1000px;
+            visibility: visible;
         }
     }
 
@@ -75,6 +76,7 @@
         background-color: #F6F6F6;
         overflow: hidden;
         max-height: 0;
+        visibility: hidden;
         transition: max-height .3s linear;
 
         &--row {

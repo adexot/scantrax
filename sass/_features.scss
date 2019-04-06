@@ -12,6 +12,9 @@
 
     &--side {
         width: 20%;
+        position: sticky;
+        top: 50px;
+        align-self: flex-start;
     }
 
     &--main {
@@ -72,4 +75,22 @@
     border-radius: 6px;
     background-color: #F7F8FA;
     margin-top: 20px;
+}
+
+/**
+ * Quick fade on target to attract user attention
+ */
+
+:target {
+    animation: target-fade 3s 1;
+}
+
+@keyframes target-fade {
+    0% {
+        background-color: rgba(0, 145, 255, 0.1);
+    }
+
+    100% {
+        background-color: rgba(0, 0, 0, 0);
+    }
 }
