@@ -7,6 +7,15 @@
     color: #fff;
     padding: 30px 80px;
 
+
+    &--right {
+
+        img {
+            display: none;
+        }    
+    }
+    
+
     &__link {
         padding: 0 25px;
         text-transform: capitalize;
@@ -22,6 +31,37 @@
     &--flag {
         padding: 10px;
         margin-left: 5px;
+    }
+
+    @include mq(sm){
+        padding: 20px;
+        align-items: center;
+
+        &__button:first-child {
+            display: none;
+        }
+
+        &__link {
+            display: none;
+        }
+
+        &--left {
+            img {
+                height: 30px;
+            }  
+        }
+
+        &--right {
+            display: flex;
+            img {
+                display: block;
+                margin-left: 30px;
+            }
+        }
+
+        .top {
+            padding: 0;
+        }
     }
 }
 

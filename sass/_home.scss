@@ -3,6 +3,15 @@
     padding-left: 90px;
     position: relative;
 
+    @include mq(sm) {
+        padding: 20px;
+
+        &__button {
+            padding: 0;
+            width: 100%;
+        }
+    }
+
     &__p {
         line-height: 1.66;
     }
@@ -31,6 +40,10 @@
         top: 50%;
         right: 20px;
         transform: translateY(-45%);
+
+        @include mq(sm){
+            display: none;
+        }
     }
 
 }
@@ -41,10 +54,18 @@
     font-size: 16rem;
     color: #fff;
 
+    @include mq(sm){
+        padding: 0 20px;
+    }
+
     &--flex {
         display: flex;
         justify-content: space-between;
         flex-grow: 1;
+
+        @include mq(sm){
+            display: block;
+        }
     }
 
     &--brochure {
@@ -52,6 +73,11 @@
         border-radius: 10px;
         width: 500px;
         margin-right: 80px;
+
+        @include mq(sm){
+            margin: 0;
+            width: 100%;
+        }
     }
 
     &--list {
@@ -76,8 +102,21 @@
     }
 
     .brochure {
+
+        @include mq(sm){
+            &--logos {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        }
+
         &--details {
             padding: 30px 50px;
+        }
+
+        &--grafiti {
+            width: 100%;
         }
 
         &__button {
@@ -145,6 +184,10 @@
         top: 50%;
         right: 0;
         transform: translateY(-50%);
+
+        @include mq(sm){
+            display: none;
+        }
     }
 }
 
@@ -186,8 +229,15 @@
     margin: 50px auto;
     font-size: 15rem;
 
+    @include mq(sm){
+        padding: 0 20px;
+    }
+
     &__img {
         display: inline-block;
+        @include mq(sm){
+            height: 30px;
+        }
     }
 }
 
