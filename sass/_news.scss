@@ -48,6 +48,11 @@
         margin-top: 20px;
     }
 
+    &__img {
+        width: 100%;
+        height: auto;
+    }
+
     &--flex {
         display: flex;
         justify-content: space-between;
