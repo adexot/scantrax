@@ -64,10 +64,10 @@ $success: $green !default;
 $edit: $yellow !default;
 
 //Breakpoints
-$sm-device: 576px;
-$md-device: 768px;
-$lg-device: 992px;
-$xl-device: 1200px;
+$sm: 576px;
+$md: 768px;
+$lg: 992px;
+$xl: 1200px;
 
 //UI Colors
 $ui-colors: (default: $blue,

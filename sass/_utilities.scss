@@ -136,7 +136,7 @@
     @else if $break=="sm" {
 
         // phone
-        @media(min-width: $sm-device) {
+        @media(max-width: $sm) {
             @content;
         }
     }
@@ -144,7 +144,7 @@
     @else if $break=="md" {
 
         // tablet
-        @media(min-width: $md-device) {
+        @media(max-width: $md) {
             @content;
         }
     }
@@ -152,7 +152,7 @@
     @else if $break=="lg" {
 
         // laptop and desktop
-        @media(min-width: $lg-device) {
+        @media(max-width: $lg) {
             @content;
         }
     }
@@ -160,7 +160,7 @@
     @else if $break=="xl" {
 
         // High res desktop and TVs
-        @media(min-width: $xl-device) {
+        @media(max-width: $xl) {
             @content;
         }
     }
