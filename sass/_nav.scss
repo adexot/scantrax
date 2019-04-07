@@ -15,12 +15,12 @@
         text-transform: uppercase;
     }
 
-    @include mq(sm){
+    @include mq(sm) {
 
         &__link {
-        display: block;
-        padding: 20px;
-    }
+            display: block;
+            padding: 20px;
+        }
     }
 }
 
@@ -38,9 +38,9 @@
 
         img {
             display: none;
-        }    
+        }
     }
-    
+
     &--center {
         &__li {
             list-style: none;
@@ -61,6 +61,12 @@
         width: 100%;
         text-transform: capitalize;
         padding: 15px;
+
+        &__img {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 5px;
+        }
 
     }
 
@@ -124,11 +130,12 @@
 
             img {
                 height: 30px;
-            }  
+            }
         }
 
         &--right {
             display: flex;
+
             img {
                 display: block;
                 margin-left: 30px;
