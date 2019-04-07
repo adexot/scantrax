@@ -69,4 +69,31 @@
         line-height: 1.66;
     }
 
+    @include mq(sm) {
+        padding: 20px;
+
+        &--flex {
+            box-shadow: unset;
+            flex-direction: column;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        &--brief {
+            width: 100%;
+        }
+
+        &--summary {
+        
+            display: block;
+            width: 90%;
+            min-height: 600px;
+
+            .summary--item {
+                margin-bottom: 20px;
+            }
+    
+        }
+    }
+
 }

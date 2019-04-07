@@ -102,4 +102,35 @@
             line-height: 1.8;
         }
     }
+
+    @include mq(sm) {
+        padding: 20px;
+
+        &--flex {
+            flex-direction: column;
+            padding: 20px;
+            height: 250px;
+        }
+
+        &--item {
+            width: 100%;
+
+            &:focus>.career--content {
+                padding: 30px;
+                max-height: 1000px;
+                visibility: visible;
+            }
+        }
+
+        &--details {
+            ul {
+                display: flex;
+                justify-content: space-between;
+            }
+        }
+
+        &__a {
+            width: 100%;
+        }
+    }
 }

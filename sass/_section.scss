@@ -72,6 +72,10 @@
         font-size: 18rem;
         line-height: 1.5;
     }
+
+    @include mq(sm) {
+        padding: 100px 0;
+    }
 }
 
 .box {

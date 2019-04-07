@@ -12,6 +12,15 @@
         padding: 80px;
         margin: 0 auto;
     }
+
+    @include mq(sm) {
+
+        &__form {
+            padding: 20px;
+        }
+        
+    }
+
 }
 
 .input {
@@ -24,6 +33,19 @@
     &__label {
         width: 50%;
         font-size: 15rem;
+    }
+
+    @include mq(sm) {
+
+        &--group {
+            display: block;
+        }
+
+        &__label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
     }
 }
 
@@ -82,5 +104,13 @@
             display: inline-block;
             text-align: center;
         }
+    }
+
+    @include mq(sm) {
+
+        &--merchant {
+            display: none;
+        }
+        
     }
 }

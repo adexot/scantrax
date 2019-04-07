@@ -64,9 +64,35 @@
 
     @include mq(sm) {
 
+        padding: 20px;
+
         &--flex {
             flex-direction: column;
             margin: 40px 0;
+        }
+
+        &--item {
+            display: block;
+            padding-top: 20px;
+        }
+
+        &--image {
+            width: 100%;
+            margin-top: 20px;
+    
+            img {
+                height: auto;
+                width: 60%;
+            }
+        }
+
+        &--details {
+            padding: 20px;
+    
+            ul {
+                width: 100%;
+                display: block;
+            }
         }
     }
 }
