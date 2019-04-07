@@ -61,4 +61,12 @@
         display: flex;
         justify-content: space-between;
     }
+
+    @include mq(sm) {
+
+        &--flex {
+            flex-direction: column;
+            margin: 40px 0;
+        }
+    }
 }

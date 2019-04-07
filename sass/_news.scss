@@ -70,4 +70,24 @@
         font-weight: 300;
         line-height: 1.8;
     }
+
+    @include mq(sm) {
+
+        &--container {
+             border-radius: unset;
+            padding: 20px;
+            box-shadow: 0 0 15px 0 transparentize(#000, 0.9);
+        }
+
+        &--flex {
+            flex-direction: column;
+            flex-wrap: nowrap;
+        }
+
+        &--column {
+            width: 100%;
+        }
+    
+    }
 }
+
