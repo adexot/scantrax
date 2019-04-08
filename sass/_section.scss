@@ -136,7 +136,6 @@
     margin: -100px 90px 50px;
 
     @include mq(sm) {
-        margin-left: 20px;
-        margin-right: 20px;
+        margin: 0;
     }
 }
