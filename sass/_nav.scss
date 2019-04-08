@@ -166,7 +166,7 @@
 
 .mobile-nav {
     &__button {
-        display: inline-block;
+        display: none;
         border: 0;
         background-color: transparent;
         margin-left: 10px;
@@ -202,6 +202,10 @@
                 transform: rotate(-45deg) translateY(5px);
             }
         }
+
+        @include mq(sm) {
+            display: inline-block;
+        }
     }
 
     &__div {
@@ -218,7 +222,7 @@
         visibility: hidden;
 
         &.active {
-            padding: 20px;
+            padding: 20px 20px 100px;
             max-height: 500px;
             visibility: visible;
         }
