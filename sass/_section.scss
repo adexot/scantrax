@@ -17,7 +17,7 @@
         font-size: 45rem;
         line-height: 1.33;
 
-        @include mq(sm){
+        @include mq(sm) {
             font-size: 35rem;
             text-align: center;
         }
@@ -30,7 +30,7 @@
         margin: 30px 0;
         line-height: 1.5;
 
-        @include mq(sm){
+        @include mq(sm) {
             text-align: center;
         }
     }
@@ -56,7 +56,7 @@
         max-width: 750px;
         margin: 0 auto;
 
-        @include mq(sm){
+        @include mq(sm) {
             padding: 0 20px;
         }
     }
@@ -92,12 +92,24 @@
         justify-content: space-between;
         max-width: 1150px;
         margin: 100px auto 0;
+
+        @include mq(sm) {
+            flex-wrap: nowrap;
+            overflow-x: auto;
+            margin: 50px 0;
+        }
     }
 
     &__img {
         position: absolute;
         bottom: 30px;
         left: 30px;
+        display: inline-block;
+
+        @include mq(sm) {
+            width: 80px;
+            height: 80px;
+        }
     }
 
     &__p {
@@ -112,33 +124,14 @@
         margin-bottom: 15px;
     }
 
-     @include mq(sm){
-        display: block;
-        width: 300px;
+    @include mq(sm) {
+        flex: 0 0 auto;
+        width: 270px;
         transform-origin: left center;
-
-        &--container {
-        display: flex;
-        white-space: nowrap;
-        justify-content: space-between;
-        max-width: 1150px;
-        margin: 0;
-        overflow-y: visible;
-        overflow-x: scroll;
-        width: 100%;
-        }
-        
-        &__p {
-            color: #6B757E;
-            line-height: 1.66;
-        }
+        margin-left: 20px;
     }
 }
 
 .page-content {
     margin: -100px 90px 50px;
-
-    @include mq(sm) {
-        margin: 0;
-    }
 }

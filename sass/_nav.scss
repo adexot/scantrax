@@ -54,6 +54,10 @@
                 visibility: visible;
             }
         }
+
+        @include mq(sm) {
+            display: none;
+        }
     }
 
     &__link {
@@ -139,6 +143,10 @@
             img {
                 display: block;
                 margin-left: 30px;
+
+                @include mq(sm) {
+                    margin-left: 10px;
+                }
             }
         }
 
