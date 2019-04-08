@@ -40,14 +40,36 @@
     }
 
     &__address {
-        margin-bottom: 20px;
+        margin: 20px 0;
         font-style: normal;
     }
 
     &__h4 {
         color: #fff;
         text-transform: uppercase;
-        margin-bottom: 20px;
+        outline: none;
+
+        @include mq(sm) {
+            cursor: pointer;
+        }
+
+        &:focus~.footer__ul {
+            padding: 20px 0;
+            max-height: 500px;
+            visibility: visible;
+        }
+    }
+
+    &__ul {
+        margin-top: 20px 0;
+
+        @include mq(sm) {
+            max-height: 0;
+            overflow: hidden;
+            margin: 0;
+            visibility: hidden;
+            transition: max-height .3s linear;
+        }
     }
 
     &__li {
