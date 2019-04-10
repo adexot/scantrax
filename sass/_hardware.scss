@@ -10,6 +10,19 @@
         display: flex;
     }
 
+    &--item:nth-child(2) {
+        ul {
+
+            li:last-child > a {
+                color: #4AA3DF;
+            }
+            
+            li:last-child::before {
+                content: unset;
+            }
+        }
+    }
+
     &--image {
         width: 268px;
         height: 256px;
