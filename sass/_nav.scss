@@ -16,11 +16,7 @@
     }
 
     @include mq(sm) {
-
-        &__link {
-            display: block;
-            padding: 20px;
-        }
+        display: none;
     }
 }
 
