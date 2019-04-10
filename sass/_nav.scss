@@ -21,14 +21,17 @@
 }
 
 .nav {
-    background-color: #0091FF;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-size: 15rem;
     color: #fff;
-    padding: 30px 80px;
+    padding: 30px 60px;
     position: relative;
+
+    &--container {
+        background-color: #0091FF;
+    }
 
 
     &--right {
@@ -158,6 +161,10 @@
             padding: 0;
         }
     }
+
+    @include mq(xl) {
+        padding: 30px 0;
+    }
 }
 
 .mobile-nav {
@@ -223,4 +230,10 @@
             visibility: visible;
         }
     }
+}
+
+.call--icon {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 10px;
 }

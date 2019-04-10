@@ -11,51 +11,29 @@
 </head>
 
 <body>
+    <div class="modal" id="modal">
+        <iframe width="90%" height="90%" src="https://www.youtube.com/embed/8Owi0IzCI-0" frameborder="0"
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     <div class="top-nav">
         <div class="top-nav__list">
             <a class="top-nav__link">24/7 LIVE SUPPORT</a>
             <a class="top-nav__link">support@scantranx.com</a>
-            <a class="top-nav__link">506-230-4861</a>
+            <a class="top-nav__link">
+                <img src="images/call.svg" class="call--icon" alt="">
+                506-230-4861
+            </a>
         </div>
     </div>
-    <nav class="nav">
-        <div class="nav--left">
-            <a href="/">
-                <img src="images/logo.svg" alt="scantrax--logo">
-            </a>
-        </div>
-        <ul class="nav--center">
-            <li class="nav--center__li"><a class="nav__link" href="/features.html">features</a></li>
-            <li class="nav--center__li"><a class="nav__link" href="/hardware.html">hardware</a></li>
-            <li class="nav--center__li"><a class="nav__link" href="/pricing.html">pricing</a></li>
-            <li class="nav--center__li">
-                <a class="nav__link" href="#">
-                    <span>resources</span>
-                    <img class="nav__link__img" src="images/chevron-down.png" alt="">
+    <div class="nav--container">
+        <nav class="nav lg--screen">
+            <div class="nav--left">
+                <a href="/">
+                    <img src="images/logo.svg" alt="scantrax--logo">
                 </a>
-                <ul class="nav--dropdown">
-                    <li class="nav--dropdown__li"><a class="nav--dropdown__a" href="/developers.html">Developers</a>
-                    </li>
-                    <li class="nav--dropdown__li"><a class="nav--dropdown__a" href="/career.html">Careers</a></li>
-                    <li class="nav--dropdown__li"><a class="nav--dropdown__a" href="/blog.html">Blog</a></li>
-                    <li class="nav--dropdown__li"><a class="nav--dropdown__a" href="/stories.html">Docs</a></li>
-                </ul>
-
-            </li>
-            <li class="nav--center__li"><a class="nav__link" href="/faq.html">FAQ</a></li>
-        </ul>
-        <div class="nav--right">
-            <a class="nav__button" href="/signup.html">Try for free</a>
-            <a class="nav__button nav--flag" href="">
-                <img src="images/flag.svg" alt="">
-            </a>
-            <button class="mobile-nav__button" id="mobile-nav-button">
-                <span></span>
-            </button>
-        </div>
-        <div class="mobile-nav__div" id="mobile-nav-menu">
-            <ul class=""">
-                <li class=" nav--center__li"><a class="nav__link" href="/features.html">features</a></li>
+            </div>
+            <ul class="nav--center">
+                <li class="nav--center__li"><a class="nav__link" href="/features.html">features</a></li>
                 <li class="nav--center__li"><a class="nav__link" href="/hardware.html">hardware</a></li>
                 <li class="nav--center__li"><a class="nav__link" href="/pricing.html">pricing</a></li>
                 <li class="nav--center__li">
@@ -74,11 +52,44 @@
                 </li>
                 <li class="nav--center__li"><a class="nav__link" href="/faq.html">FAQ</a></li>
             </ul>
-        </div>
-    </nav>
+            <div class="nav--right">
+                <a class="nav__button" href="/signup.html">Try for free</a>
+                <a class="nav__button nav--flag" href="">
+                    <img src="images/flag.svg" alt="">
+                </a>
+                <button class="mobile-nav__button" id="mobile-nav-button">
+                    <span></span>
+                </button>
+            </div>
+            <div class="mobile-nav__div" id="mobile-nav-menu">
+                <ul class=""">
+                        <li class=" nav--center__li"><a class="nav__link" href="/features.html">features</a></li>
+                    <li class="nav--center__li"><a class="nav__link" href="/hardware.html">hardware</a></li>
+                    <li class="nav--center__li"><a class="nav__link" href="/pricing.html">pricing</a></li>
+                    <li class="nav--center__li">
+                        <a class="nav__link" href="#">
+                            <span>resources</span>
+                            <img class="nav__link__img" src="images/chevron-down.png" alt="">
+                        </a>
+                        <ul class="nav--dropdown">
+                            <li class="nav--dropdown__li"><a class="nav--dropdown__a"
+                                    href="/developers.html">Developers</a>
+                            </li>
+                            <li class="nav--dropdown__li"><a class="nav--dropdown__a" href="/career.html">Careers</a>
+                            </li>
+                            <li class="nav--dropdown__li"><a class="nav--dropdown__a" href="/blog.html">Blog</a></li>
+                            <li class="nav--dropdown__li"><a class="nav--dropdown__a" href="/stories.html">Docs</a></li>
+                        </ul>
+
+                    </li>
+                    <li class="nav--center__li"><a class="nav__link" href="/faq.html">FAQ</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
 
     <section class="two-column-section top">
-        <div class="top--flex">
+        <div class="top--flex lg--screen">
             <div class="two-column-section--left">
                 <h2 class="two-column-section__h2">
                     Smart Solution for Retail and Wholesale Businesses.
@@ -87,7 +98,7 @@
                     Seamlessly Integrate all your sales channel and provide your customers with Unique Shopping
                     Experience.
                 </p>
-                <button class="two-column-section__a top__button" href="#">
+                <button class="two-column-section__a top__button play--button" href="#">
                     <img class="top__button__img" src="images/play.png" alt="">
                     <span>Play Video</span>
                 </button>
@@ -103,7 +114,7 @@
     </section>
 
     <section class="feature">
-        <div class="feature--flex">
+        <div class="feature--flex lg--screen">
             <div class="feature--brochure">
                 <img class="brochure--grafiti" src="images/grafiti.svg" alt="">
                 <div class="brochure--details">
@@ -180,7 +191,7 @@
     </section>
 
     <section class="two-column-section pos">
-        <div class="two-column-section--flex">
+        <div class="two-column-section--flex lg--screen">
             <div class="two-column-section--left">
                 <h2 class="two-column-section__h2">Your Point of Sale (POS) on Android.</h2>
                 <p class="two-column-section__p pos__p">
@@ -193,7 +204,10 @@
                     coming back.
                 </p>
 
-                <button class="pos__button" href="#">How it works</button>
+                <button class="pos__button" href="#">
+                    <img src="images/play-blue.svg" alt="">
+                    <span class="pos__button__span pos-play--button">How it works</span>
+                </button>
             </div>
 
             <img class="pos--image" src="images/short_sleeve.svg" alt="">
@@ -213,7 +227,7 @@
                 </p>
 
                 <div class="customer">
-                    <img src="" alt="" class="customer__img">
+                    <img src="images/cus-1.png" alt="" class="customer__img">
                     <div class="customer--info">
                         <h5 class="customer__h5">Oyedotun Enitan</h5>
                         <div class="customer--title">GM, Maryam Auto</div>
@@ -227,7 +241,7 @@
                 </p>
 
                 <div class="customer">
-                    <img src="" alt="" class="customer__img">
+                    <img src="images/cus-2.png" alt="" class="customer__img">
                     <div class="customer--info">
                         <h5 class="customer__h5">Oyedotun Enitan</h5>
                         <div class="customer--title">GM, Maryam Auto</div>
@@ -241,7 +255,7 @@
                 </p>
 
                 <div class="customer">
-                    <img src="" alt="" class="customer__img">
+                    <img src="images/cus-3.png" alt="" class="customer__img">
                     <div class="customer--info">
                         <h5 class="customer__h5">Oyedotun Enitan</h5>
                         <div class="customer--title">GM, Maryam Auto</div>
@@ -292,7 +306,7 @@
 
     <section class="two-column-section pre-footer">
         <img src="images/wave.png" class="pre-footer--bg" alt="">
-        <div class="two-column-section--flex">
+        <div class="two-column-section--flex lg--screen">
             <div class="two-column-section--left">
                 <h2 class="two-column-section__h2">Ready to Expand or Grow your Business?</h2>
                 <p class="two-column-section__p">Get 14 days trial. No credit card required.</p>
@@ -306,7 +320,7 @@
     </section>
 
     <footer class="footer">
-        <div class="footer--flex">
+        <div class="footer--flex lg--screen">
             <div class="footer--column footer--column--first">
                 <img class="footer--logo" src="images/logo.svg" alt="scantrax logo">
                 <p class="footer--text footer--paragraph">

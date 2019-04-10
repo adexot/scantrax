@@ -160,7 +160,7 @@
     @else if $break=="xl" {
 
         // High res desktop and TVs
-        @media(max-width: $xl) {
+        @media(min-width: $xl) {
             @content;
         }
     }

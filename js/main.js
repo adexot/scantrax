@@ -6,6 +6,8 @@ window.addEventListener('load', () => {
 
     const mobileNavButton = getElement('#mobile-nav-button');
     const mobileNavMenu = getElement('#mobile-nav-menu');
+    const playButton = getElement('.play--button');
+    const posPlayButton = getElement('.pos-play--button');
 
     let isNavActive = false;
     mobileNavButton.addEventListener('click', () => {
@@ -18,4 +20,18 @@ window.addEventListener('load', () => {
         }
         isNavActive = !isNavActive;
     });
+
+    const modal = getElement('#modal');
+    playButton && playButton.addEventListener('click', () => {
+
+        modal.classList.add('modal--show');
+    });
+
+    posPlayButton && posPlayButton.addEventListener('click', () => {
+        modal.classList.add('modal--show');
+    });
+
+    modal && modal.addEventListener('click', () => {
+        modal.classList.remove('modal--show');
+    })
 });

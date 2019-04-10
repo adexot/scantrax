@@ -41,6 +41,11 @@ button {
     font-weight: 600;
 }
 
+.lg--screen {
+    max-width: 1400px;
+    margin: auto;
+}
+
 @import 'config';
 @import 'utilities';
 @import 'section';
@@ -58,3 +63,4 @@ button {
 @import 'news';
 @import 'footer';
 @import 'theme';
+@import 'modal';
