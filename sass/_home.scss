@@ -41,13 +41,15 @@
 
     &--flex {
         display: flex;
+        justify-content: space-between;
     }
 
     &--image {
         position: absolute;
-        top: 50%;
-        right: 20px;
-        transform: translateY(-45%);
+        // top: 50%;
+        right: 50px;
+        bottom: 20px;
+        // transform: translateY(-45%);
 
         @include mq(sm) {
             display: none;
