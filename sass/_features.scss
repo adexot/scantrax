@@ -13,7 +13,7 @@
     &--side {
         width: 20%;
         position: sticky;
-        top: 50px;
+        top: 100px;
         align-self: flex-start;
     }
 
@@ -84,7 +84,7 @@
         margin-left: 20px;
     }
 
-    @include mq(sm) { 
+    @include mq(sm) {
         display: block;
 
         &--image {

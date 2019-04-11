@@ -8,6 +8,7 @@ window.addEventListener('load', () => {
     const mobileNavMenu = getElement('#mobile-nav-menu');
     const playButton = getElement('.play--button');
     const posPlayButton = getElement('.pos-play--button');
+    const navBar = getElement('.nav--container');
 
     let isNavActive = false;
     mobileNavButton.addEventListener('click', () => {
@@ -34,4 +35,12 @@ window.addEventListener('load', () => {
     modal && modal.addEventListener('click', () => {
         modal.classList.remove('modal--show');
     })
+
+    window.addEventListener('scroll', () => {
+        if (window.scrollY > 50) {
+            navBar.classList.add('fixed');
+        } else {
+            navBar.classList.remove('fixed');
+        }
+    });
 });

@@ -113,6 +113,7 @@
         width: 100%;
         height: 100%;
         opacity: 0.2;
+        background: #0091FF url('./../images/wave.png') repeat;
 
         @include mq(sm) {
             display: none;

@@ -26,11 +26,23 @@
     align-items: center;
     font-size: 15rem;
     color: #fff;
-    padding: 30px 60px;
     position: relative;
 
     &--container {
         background-color: #0091FF;
+        transition: all .3s linear;
+        padding: 30px 60px;
+
+        &.fixed {
+            position: fixed;
+            top: 0;
+            box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2);
+            width: 100%;
+            z-index: 999;
+            padding: 10px 60px;
+
+            & .nav {}
+        }
     }
 
 
@@ -235,5 +247,5 @@
 .call--icon {
     display: inline-block;
     margin-right: 10px;
-    margin-top: 10px;
+    transform: translateY(10%);
 }
