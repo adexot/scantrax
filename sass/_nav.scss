@@ -41,7 +41,13 @@
             z-index: 999;
             padding: 10px 60px;
 
-            & .nav {}
+            @include mq(sm) {
+                padding: 0;
+            }
+        }
+
+        @include mq(sm) {
+            padding: 10px 0;
         }
     }
 
@@ -135,7 +141,7 @@
     }
 
     @include mq(sm) {
-        padding: 20px;
+        padding: 10px;
         align-items: center;
 
         &__button:first-child {
