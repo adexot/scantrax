@@ -10,7 +10,7 @@
 
 // Hidden for mobile devices
 .is-collapsed-mobile {
-	@include mq(sm) {
+	@include mq(md) {
 		visibility: collapse;
 		padding: 0;
 		height: 0;
@@ -21,7 +21,7 @@
 
 // Hidden for desktops
 .is-displayed-mobile {
-	@include mq(sm) {
+	@include mq(md) {
 		display: block;
 		// @at-root (with:media){
 		// 	.is-hidden-mobile{

@@ -13,7 +13,7 @@
         margin: 0 auto;
     }
 
-    @include mq(sm) {
+    @include mq(md) {
 
         &__form {
             padding: 20px;
@@ -35,7 +35,7 @@
         font-size: 15rem;
     }
 
-    @include mq(sm) {
+    @include mq(md) {
 
         &--group {
             display: block;
@@ -106,7 +106,7 @@
         }
     }
 
-    @include mq(sm) {
+    @include mq(md) {
 
         &--merchant {
             display: none;

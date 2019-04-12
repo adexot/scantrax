@@ -71,7 +71,7 @@
         line-height: 1.8;
     }
 
-    @include mq(sm) {
+    @include mq(md) {
 
         &--container {
              border-radius: unset;

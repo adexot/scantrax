@@ -103,7 +103,7 @@
         }
     }
 
-    @include mq(sm) {
+    @include mq(md) {
         padding: 20px;
 
         &--flex {

@@ -3,7 +3,11 @@
     background-color: #0A192B;
     color: #fff;
 
-    @include mq(sm) {
+    @include mq(lg) {
+        padding: 80px 30px;
+    }
+
+    @include mq(md) {
         padding: 20px;
     }
 
@@ -12,7 +16,7 @@
         flex: 1 1 auto;
         margin-bottom: 70px;
 
-        @include mq(sm) {
+        @include mq(md) {
             display: block;
         }
 
@@ -23,7 +27,7 @@
         margin-right: 50px;
         font-size: 15rem;
 
-        @include mq(sm) {
+        @include mq(md) {
             background-color: #04101E;
             margin: 0 0 20px;
             padding: 20px;
@@ -53,7 +57,7 @@
         text-transform: uppercase;
         outline: none;
 
-        @include mq(sm) {
+        @include mq(md) {
             cursor: pointer;
         }
 
@@ -67,7 +71,7 @@
     &__ul {
         margin-top: 20px 0;
 
-        @include mq(sm) {
+        @include mq(md) {
             max-height: 0;
             overflow: hidden;
             margin: 0;
@@ -115,7 +119,7 @@
         opacity: 0.2;
         background: #0091FF url('./../images/wave.png') repeat;
 
-        @include mq(sm) {
+        @include mq(md) {
             display: none;
         }
     }
@@ -126,7 +130,12 @@
         right: 90px;
         transform: translateY(-50%);
 
-        @include mq(sm) {
+        @include mq(lg) {
+            height: 350px;
+            width: auto;
+        }
+
+        @include mq(md) {
             display: none;
         }
     }
@@ -139,7 +148,7 @@
         margin-top: 15px;
         display: inline-block;
 
-        @include mq(sm) {
+        @include mq(md) {
             width: 100%;
             margin-bottom: 30px;
             text-align: center;

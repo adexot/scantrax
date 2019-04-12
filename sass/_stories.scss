@@ -57,7 +57,13 @@
         }
     }
 
-    @include mq(sm) {
+    @include mq (lg) {
+        &--flex {
+            margin-top: 80px;
+        }
+    }
+
+    @include mq(md) {
 
         &--flex {
             background-color: #fff;

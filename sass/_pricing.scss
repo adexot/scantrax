@@ -6,9 +6,7 @@
     }
 
     &-content {
-        @include mq(sm) {
-            overflow: auto;
-        }
+        overflow: scroll;
     }
 
     &__table {
@@ -27,7 +25,7 @@
     &__th {
         padding: 50px;
 
-        @include mq(sm) {
+        @include mq(md) {
             padding: 10px;
         }
     }
@@ -38,7 +36,7 @@
         width: 25%;
         padding: 25px 50px;
 
-        @include mq(sm) {
+        @include mq(md) {
             padding: 10px;
             font-size: 13rem;
         }
@@ -70,7 +68,7 @@
         padding: 15px 25px;
         font-weight: 600;
 
-        @include mq(sm) {
+        @include mq(md) {
             padding: 10px;
             width: 100px;
             font-size: 13rem;

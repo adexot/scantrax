@@ -69,7 +69,21 @@
         line-height: 1.66;
     }
 
-    @include mq(sm) {
+    @include mq(lg) {
+        &--flex {
+            margin-top: 70px;
+        }
+
+        &--summary {
+            display: block;
+
+            .summary--item {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    @include mq(md) {
         padding: 20px;
 
         &--flex {
@@ -83,6 +97,14 @@
             width: 100%;
         }
 
+        &--summary {
+            display: flex;
+            width: 60%;
+            min-height: 400px;
+        }
+    }
+
+    @include mq(sm) {
         &--summary {
         
             display: block;

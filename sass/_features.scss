@@ -55,7 +55,7 @@
         color: #0091FF;
     }
 
-    @include mq(sm) {
+    @include mq(md) {
         padding: 20px;
 
         &--flex {
@@ -85,7 +85,19 @@
         margin-left: 20px;
     }
 
-    @include mq(sm) {
+    @include mq(lg) {
+
+        &--image {
+            width: 60%;
+
+            img {
+                height: 300px;
+                width: auto;
+            }
+        }
+    }
+
+    @include mq(md) {
         display: block;
 
         &--image {
